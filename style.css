@@ -1,0 +1,363 @@
+body{
+	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	
+}
+a,li,p,table{
+	
+	font-size:17px;
+	
+}
+
+
+
+#fHeader{
+	
+	color:white;
+	border:2px solid;
+	padding:4px;
+}
+.dropdown:hover .dropdown-menu{
+	
+	display:block;
+	
+}
+.dropdown-computing {
+	
+	display:none;
+}
+.dropdown-management {
+	
+	display:none;
+}
+.dropdown-engineering {
+	
+	display:none;
+}
+.dcom:hover .dropdown-computing{
+	
+	display:block;
+}
+.dman:hover .dropdown-management{
+	
+	display:block;
+}
+.deng:hover .dropdown-engineering{
+	
+	display:block;
+}
+
+
+#logDiv{
+	
+	color:white;
+	margin-top:200px;
+	
+}
+
+/*footer class fixed*/
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top:1px solid Gainsboro ;
+	background-color:white;
+	
+	padding:10px 20px;
+	
+}
+
+
+
+.fixed a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+
+.footer-left{
+	
+	
+	float:left;
+}
+
+
+.footer-right{
+	
+	
+	float:right;
+}
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+
+.fixed form input{
+	
+	width: 400px;
+
+}
+
+
+.fCheck{
+	
+	font-size:17px;	
+}
+
+/*image gallary for event home page*/
+.removeBor{
+	
+	border:none;
+}
+
+.setRad{
+	
+	border-radius:15px;
+}
+
+.setRad:hover{
+	border:1px solid #d0d0d0;
+	
+}
+
+/*carousel*/
+.carousel-caption{
+	font-size:20px;
+	margin:auto;
+	padding-bottom:70px;
+	
+}
+.carousel-caption h3{
+	font-size:2em;
+	
+}
+
+
+/*Create Left side bar*/
+.EDnav{
+	list-style-type: none;
+    background-color: #f1f1f1;
+	margin:0px;
+	padding:0px;
+    position: fixed;
+	width:15%;
+    height: 100%;
+    overflow: auto;
+	left:0;
+	
+	
+	
+}
+
+.EDnav li a{
+	display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.EDnav li a:hover{
+	
+	background-color: black;
+	color:white;
+}
+
+
+
+/*right side bar*/
+
+.navHead{
+	
+	display:block;
+	width:100%;
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+
+.setpadding{
+	margin-bottom:150px;
+	
+}
+
+.setfont{
+	
+	font-size:17px;
+}
+
+
+/*get tickets now*/
+.gettickets{
+	
+	background-color:#01cc52;
+	color:white;
+	text-align:center;
+	padding:55px;
+}
+
+.editBtn{
+	
+	border:none;
+	border-radius:10px;
+	background-color:black;
+	color:white;
+	padding:20px 30px;
+	font-size:20px;
+}
+
+.editBtn:hover{
+	background-color:white;
+	color:black;
+}
+.gettickets h1{
+	
+	padding:10px;
+}
+
+/*get tickets setborderR is the all div border style*/
+.setBorderR{
+	
+	border:1px solid black;
+	box-shadow:2px 2px 2px 2px #cccccc;
+	border-radius:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:20px;
+	
+}
+
+ul.ticketsUL{
+	
+	list-style-type:none;
+	overflow: hidden;
+	margin:0px;
+	padding:0px;
+}
+
+.ticketsUL li{
+	
+	float:left;
+	padding-right:20px;
+	padding-top:20px;
+	
+	
+	  
+}
+
+.ticketsUL li a{
+	
+	
+	text-decoration:none;
+	  
+}
+
+
+.ticketsUL li.setFright{
+	float:right;
+	
+}
+
+.greenSB{
+	
+	border:none;
+	border-radius:10px;
+	background-color:#01cc52;
+	color:white;
+	padding:10px 30px;
+	font-size:20px;
+	
+}
+
+.greenSB:hover{
+	
+	
+	background-color:black;
+	color:white;
+	
+}
+.container{
+	
+margin-top:50px;
+}
+
+/*about us page*/
+
+.centerAli p{
+	
+	text-align:center;
+	
+	
+	
+}
+
+.centerAli{
+	
+	text-align:center;
+	
+	
+	
+}
+
+.setBGcolor1 p{
+	
+	width:100%;
+	background-color:#4abdac;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor2 p{
+	
+	width:100%;
+	background-color:#fd4819;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor3 p{
+	
+	width:100%;
+	background-color:#f7b733;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor4 p{
+	
+	width:100%;
+	background-color:#dedbe2;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
